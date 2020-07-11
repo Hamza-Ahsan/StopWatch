@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="icon" href="StopWatch icon.png">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <p>STOPWATCH</p>
+    </div>
+
+    <div class="container">
+        <div id="hour" class="time">0</div><b class="dot">:</b>
+        <div id="min" class="time">0</div><b class="dot">:</b>
+        <div id="sec" class="time">0</div><b class="dot">:</b>
+        <div id="milisec" class="time">0</div>
+    </div>
+
+    <div>
+        <button id="run" onclick="start()">Start</button>
+        <button id="back" onclick="stop()">Stop</button>
+        <button onclick="reset()">Reset</button>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

@@ -1,0 +1,113 @@
+body {
+    background-image: url(background\ colour.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 900px;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px){
+  p {
+    font-size: 50px !important;
+    margin-top: 30px !important;
+  }
+  .container{
+    width: 400px !important;
+    margin-top: 50px !important;
+  }
+  .time{
+    font-size: 50px !important;
+    margin-top: 60px !important;
+    width: 75px !important;
+  }
+  .dot{
+    font-size: 50px !important;
+  }
+}
+
+@media screen and (max-width: 400px){
+  p {
+    font-size: 50px !important;
+    margin-top: 30px !important;
+  }
+  .container{
+    width: 370px !important;
+    margin-top: 50px !important;
+  }
+  .time{
+    font-size: 50px !important;
+    margin-top: 55px !important;
+    width: 70px !important;
+  }
+  .dot{
+    font-size: 40px !important;
+  }
+}
+
+@media screen and (max-width: 360px){
+  p {
+    font-size: 40px !important;
+    margin-top: 30px !important;
+  }
+  .container{
+    width: 300px !important;
+    margin-top: 50px !important;
+  }
+  .time{
+    font-size: 40px !important;
+    margin-top: 70px !important;
+    width: 55px !important;
+  }
+  .dot{
+    font-size: 30px !important;
+  }
+}
+
+p {
+    color: azure;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 3px 3px 2px aqua;
+}
+
+.container {
+  background-color: black;
+  width: 500px;
+  height: 200px;
+  margin-top: 60px;
+  box-shadow: 5px 3px 10px aqua;
+  border-radius: 50%;
+
+}
+
+.dot{
+  color: aqua;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.time {
+  color: aqua;
+  display: inline-block;
+  width: 90px;
+  font-size: 60px;
+  background-color: black;
+  margin-top: 55px;
+}
+
+button {
+  margin-top: 50px !important;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 15px;
+  background-color: aqua;
+  border: black;
+  outline: none !important;
+  font-weight: bold;
+}
+
+button:hover{
+  background-color: black;
+  color: aliceblue;
+}
